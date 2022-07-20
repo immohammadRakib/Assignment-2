@@ -1,0 +1,500 @@
+*{
+      margin-left: 0; 
+      padding: 0;  
+}
+/* This area is maek for banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #161616;
+    color: white;
+    width: 90%;
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+/* this area just for banner-text */
+.banner .banner-text h1{
+    margin-top: 80px;
+    margin-left: 70px;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 450px;
+}
+/* banner paragraph section */
+.banner .banner-text p{
+    margin-top: 20px;
+    color: lightgray;
+    margin-left: 70px;
+    width: 440px;
+}
+/* this area for banner button */
+.banner .banner-text button{
+    color: white;
+    background-color: red;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 70px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+/* this area for banner-img */
+.banner .banner-img img{
+    width: 500px;
+    height: 450px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+/* This area is maek for card section */
+.card{
+    display: flex;
+}
+/* this section fof card-menu */
+.card .card-menu{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    background-color: black;
+    width: 230px;
+    height: 250px;
+    border-radius: 8px;
+}
+/* this area make for car-menu hover , while mouse over there */
+.card .card-menu a:hover{
+    color: white;
+    background-color: red;
+}
+/* card menu link area, those work like button */
+.card .card-menu a{
+    text-decoration: none;
+    margin-left: 21px;
+    padding: 5px;
+    padding-top: 8px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+/* card-gellary is another secton of card */
+.card .card-gellary{
+    margin-top: 80px;
+    margin-left: 20px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,1fr);
+}
+/* this area for card photo */
+.card .card-gellary .card-photo i {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: darkgray;
+    font-size: 12px;
+}
+/* these another area is upcoming */
+.card .card-gellary .upcoming{
+    height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+/* match section included upcoming section's */
+.card .card-gellary .upcoming .match{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+/* upcoming ares's photo below here */
+.card .card-gellary .upcoming img{
+    width: 70px;
+    height: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* upcoming area's bigger tag */
+.card .card-gellary .upcoming h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* upcoming area's small tag but not so small */
+.card .card-gellary .upcoming h6{
+    margin-top: 15px;
+    text-align: center;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* card-photo section started here */
+.card .card-gellary .card-photo{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+/* this is for car-photo images */
+.card .card-gellary .card-photo img{
+    border-radius: 10px;
+    width: 310px;
+    height: 200px;
+}
+/* this button made for card-photo section */
+.card .card-photo button{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+    width: 80px;
+    height: 30px;
+}
+/* this paragraph only for card-photo */
+.card .card-photo p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    width: 300px;
+}
+/* card-photo icon below here */
+.card .card-gellary .card-photo .icon{
+    margin-top: 50px;
+    font-size: 12px;
+    color: darkgray;
+}
+/* This area is make for footer section */
+.footer{
+    margin-top: 150px;
+    color: white;
+    background-color: black;
+    height: 400px;
+}
+/* this are bigger tag in footer */
+.footer h1{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+/* Horizonal line , below of footer tag */
+.footer hr{ 
+    text-align: center;
+    margin-top: 70px;
+    color: lightgray;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+/* footer section's sevice's below here */
+.footer .about{
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* footer section's icon  */
+.footer .icon{
+    text-align: center;
+    margin-top: 80px;
+}
+/* footer section's icon single by single */
+.footer .icon i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Resposive Area */
+@media screen and (max-width:576px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* This is a banner area */
+    .banner{
+        height: 730px;
+        flex-direction: column;
+    }
+    /* this area for banner image */
+     .banner .banner-img img{
+        width: 420px;
+        height: 350px;
+    }
+    /* this area for banner bigger tag */
+    .banner .banner-text h1{
+        text-align: center;
+        width: 380px;
+        margin-left: 25px;
+        font-size: 32px;
+    }
+    /* this area for bnner peragraph */
+    .banner .banner-text p{
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 25px;
+        width: 380px;
+    }
+    /* this are for banner button */
+    .banner .banner-text button{
+        margin-top: 20px;
+        margin-left: 135px;
+        width: 180px;
+        height: 50px;
+    }
+    /*  This is a Card area */
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    /* card-gellary are included card area  */
+    .card .card-gellary{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 0px;
+    }
+    /* This is a footer area */
+    .footer{
+        margin-top: 50px;
+        height: 650px;
+    }
+    /* footer sevice's are  */
+    .footer .about {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    /* footer service's paragraph */
+    .footer .about p{
+        padding-top: 30px;
+    }
+    /* This only for tablet version */
+    .tablet{
+        visibility: hidden;
+    }
+   
+    /* This are is make for .card-photo */
+    .card .card-gellary .card-photo{
+        width: 430px;
+        height: 420px;
+    }
+    /* this area for card-photo image */
+    .card .card-gellary .card-photo img{
+        width: 430px;
+        height: 250px;
+    }
+    /* this area for card-photo button */
+    .card .card-gellary .card-photo button{
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 90px;
+        height: 35px;
+    }
+    /* this area for card-photo paragrph */
+    .card .card-gellary .card-photo p{
+        font-size: 18px;
+        width: 400px;
+        margin-left: 20px;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    /* this area for card-photo icon */
+    .card .card-gellary .card-photo I{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    /* This are make for .card-menu */
+    .card .card-menu{
+        background-color: white;
+        margin-top: 10px;
+    }
+    /* card-menu button area below */
+    .card .card-menu a{
+        border: 1px solid lightgray;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    /* This are for Upcoming match */
+    .card .card-gellary .upcoming{
+        width: 400px;
+        height: 200px;
+    }   
+    /* upcoming section's biggest tag */
+    .card .card-gellary .upcoming h1{
+        margin-top: 20px;
+    }
+    /* upcoming section's small tag not so much small */
+    .card .card-gellary .upcoming h6{
+        margin-top: 20px;
+    }
+}
+/* Responsive for tablet */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        /* background-color: red; */
+    }
+    /* This area for banner-img with image */
+    .banner .banner-img img{
+        width: 400px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: -45px;
+    }
+    /* this area for banner biggest tag */
+    .banner .banner-text h1{
+        font-size: 42px;
+        width: 400px;
+    }
+    /* this area for banner paragraph */
+    .banner .banner-text p{
+        font-size: 18px;
+        margin-top: 20px;
+        width: 330px;
+    }
+    /* this area for banner button */
+    .banner .banner-text button{
+        margin-top: 20px;
+    }
+    /* This area make for card resposive */
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* this area  for card-gellary */
+    .card .card-gellary{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    /* this area for card-photo */
+    .card .card-gellary .card-photo{
+        width: 400px;
+        height: 400px;
+    }
+    /* card-photo images below here */
+    .card .card-gellary .card-photo img{
+        width: 400px;
+        height: 230px;
+    }
+    /* card photo button below here */
+    .card .card-gellary .card-photo button{
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 120px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    /* card-photo paragraph below here */
+    .card .card-gellary .card-photo p{
+        font-size: 18px;
+        width: 400px;
+        margin-left: 20px;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    /* card-photo area's icon below here */
+    .card .card-gellary .card-photo i{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    /* this area made for card-menu */
+    .card .card-menu{
+        background-color: white;
+        width: 830px;
+        height: 30px;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    /* this button child of card-menu */
+    .card .card-menu a{
+        text-align: center;
+        padding-top: 20px;
+        background-color: white;
+        width: 300px;
+        height: 40px;
+        font-size: 24px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+    }
+    /* this area for upcoming section */
+    .card .card-gellary .upcoming{
+        height: 200px;
+    }
+    /* upcoming section's biggest tage below here */
+    .card .card-gellary .upcoming h1{
+        margin-top: 20px;
+    }
+    /* upcoming section's small tage but not so much small */
+    .card .card-gellary .upcoming h6{
+        margin-top: 15px;
+    }
+    /* upcoming section's images below here */
+    .card .card-gellary .upcoming img{
+        width: 120px;
+        height: 70px;
+    }
+    /* This is new addition for tablet version */
+    .tablet{
+        margin-top: 70px;
+        margin-left: 37%;
+        width: 250px;
+        height: 70px;
+        border: 1px solid red;
+        border-radius: 8px;
+        background-color: red;
+        color: white;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    /* this area just only for footer */
+    .footer{
+        margin-top: 80px;
+    }
+    /* footer area's sevice's */
+    .footer .about{
+        font-size: 18px;
+    }
+    /* footer area's sevice's single by single */
+    .footer .about p{
+        width: 100px;
+    }
+}
+/* This area maek for desktop version */
+@media screen and (min-width:993px) and (max-width:1400px) {
+    *{
+        margin: 0;
+        padding: 0;
+        /* background-color: yellow; */
+    }
+    /* this tablet are only for tablet version user's */
+    .tablet{
+        visibility: hidden;
+    }
+    
+}
